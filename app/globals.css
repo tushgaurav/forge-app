@@ -53,6 +53,63 @@
 }
 
 :root {
+  /* Light theme (default) */
+  --background: oklch(0.99 0 0);
+  --foreground: oklch(0.17 0.01 260);
+
+  --card: oklch(1 0 0);
+  --card-foreground: oklch(0.17 0.01 260);
+
+  --popover: oklch(1 0 0);
+  --popover-foreground: oklch(0.17 0.01 260);
+
+  /* Primary: Forge amber-orange */
+  --primary: oklch(0.78 0.155 65);
+  --primary-foreground: oklch(0.18 0.02 65);
+
+  --secondary: oklch(0.96 0.004 260);
+  --secondary-foreground: oklch(0.22 0.01 260);
+
+  --muted: oklch(0.96 0.004 260);
+  --muted-foreground: oklch(0.52 0.01 260);
+
+  --accent: oklch(0.94 0.02 65);
+  --accent-foreground: oklch(0.22 0.01 260);
+
+  --destructive: oklch(0.62 0.21 25);
+  --destructive-foreground: oklch(0.99 0 0);
+
+  --border: oklch(0.90 0.006 260);
+  --input: oklch(0.90 0.006 260);
+  --ring: oklch(0.78 0.155 65);
+
+  /* Chart palette */
+  --chart-1: oklch(0.78 0.155 65);
+  --chart-2: oklch(0.62 0.16 165);
+  --chart-3: oklch(0.60 0.14 250);
+  --chart-4: oklch(0.62 0.19 25);
+  --chart-5: oklch(0.58 0.12 300);
+
+  /* Forge semantic colors */
+  --forge-amber: oklch(0.78 0.155 65);
+  --forge-green: oklch(0.62 0.17 155);
+  --forge-red: oklch(0.62 0.21 25);
+  --forge-blue: oklch(0.60 0.14 250);
+
+  --radius: 0.375rem;
+
+  /* Sidebar */
+  --sidebar: oklch(0.98 0.004 260);
+  --sidebar-foreground: oklch(0.22 0.01 260);
+  --sidebar-primary: oklch(0.78 0.155 65);
+  --sidebar-primary-foreground: oklch(0.18 0.02 65);
+  --sidebar-accent: oklch(0.94 0.02 65);
+  --sidebar-accent-foreground: oklch(0.22 0.01 260);
+  --sidebar-border: oklch(0.90 0.006 260);
+  --sidebar-ring: oklch(0.78 0.155 65);
+}
+
+.dark {
   /* Industrial dark theme — forge control room */
   --background: oklch(0.13 0.006 260);
   --foreground: oklch(0.92 0.006 260);
